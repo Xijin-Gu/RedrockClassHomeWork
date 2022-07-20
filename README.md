@@ -73,9 +73,26 @@ t.length()
 
 单测代码覆盖率为83.3%
 
+# Apache,Nginx,Kubernetes
 
+### 作业
 
+### lv0
 
+分别使用apache和nginx部署一个html页面，内容随意。交配置文件中关键内容（截图或者复制文本）
+
+### lv0.5
+
+使用nginx监听9999端口，反向代理到8081，8082，8083端口。使用任意策略的负载均衡。交配置文件中关键内容（截图或者复制文本）
+
+### lv1
+
+使用k8s部署自己的上次考核的作业。部署好之后交如下指令的结果（截图或者复制文本）
+
+```
+kubectl describe <你使用的workloads类型> <name>
+kubectl describe service <name>
+```
 
 
 
